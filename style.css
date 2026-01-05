@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* hides sideways scroll */
+}
+/* navbar */
+    .custom-link {
+        color: red !important;
+        /* white text */
+
+        border-radius: 6px;
+        /* rounded corners */
+        margin: 0 5px;
+        /* small space between links */
+        padding: 8px 15px;
+        /* box size */
+        transition: all 0.3s ease;
+        /* smooth hover effect */
+        font-family: 'Glacial Indifference', sans-serif;
+    }
+
+    .custom-link:hover {
+        background-color: bisque;
+        /* darker red on hover */
+        text-decoration: none;
+        /* remove underline */
+    }
+
+    .navbar {
+        background-color: rgb(7, 7, 84) !important;
+        /* navbar background */
+    }
+    /* navbar ends */
